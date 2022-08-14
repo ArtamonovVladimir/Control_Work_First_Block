@@ -29,7 +29,8 @@
                     counter = RandomInputStrings(arrayStringFirst);
                     break;
                 default:
-                    Console.WriteLine("Вы не ввели нужного варианта!");
+                    Console.WriteLine("Вы не ввели нужного варианта! Поэтому мы сделаем за Вас Автозаполненый :)");
+                    counter = RandomInputStrings(arrayStringFirst);
                     break;
             }
             //string[] arrayStringResult = new string[counter];
